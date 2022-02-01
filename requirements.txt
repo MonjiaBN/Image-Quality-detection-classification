@@ -8,8 +8,6 @@ requests==2.24.0
 scikit-image==0.14.2
 scipy==1.7.3
 seaborn==0.11.2
-tensorboard==2.0.2
-tensorflow==2.0.0
 Flask==2.0.2
 Werkzeug==2.0.2
 
