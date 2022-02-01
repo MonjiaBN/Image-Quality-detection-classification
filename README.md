@@ -3,14 +3,14 @@ Sometimes, when I collect images for a dataset for a computer vision project, I 
 Try the web application below
 
 
-## methods used :
+## Methods used :
 To detect/classify the blurred images ,i use this two methods:
 
 # 1- Variation of the Laplacian
 a blurry image doesn't have a clearly edges ( an edge is a sharp change in intensity or color)
 The laplacian isa type of edge detection filter that works with kernel convolution method (So laplacian convolves the image with the kernel and then return the variance)
-# * For clear images : a high variance between pixels
-# * For Blurry images : a small variance between pixels values ( not really a sharp change )
+- For clear images : a high variance between pixels
+- For Blurry images : a small variance between pixels values ( not really a sharp change )
 NB : we need to tune the value of the threshold : choose threshold basis by trial and error
 
 ### accuracy Score for NaturalBlurSet: 48.70%
@@ -26,15 +26,21 @@ You can download the dataset from this link  http://mklab.iti.gr/files/imageblur
 # required packages in "requirements.txt" file
 
 Some packages :
-matplotlib
+matplotlib 
+
 numpy
+
 pandas
+
 requests
+
 seaborn
+
 scikit-learn
+
 Flask (For Web Development)
 
-#Link of the web application 
+# Link of the web application 
 
 # References: 
 https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
