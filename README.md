@@ -1,6 +1,6 @@
 # Image-Quality-detection-classification
 Sometimes, when I collect images for a dataset for a computer vision project, I take many blurred images that I didn't notice and it will take me time to define them and delete them or maybe try to deblur . So I decide to develop a system that detects the quality of an image (clear or blur image) that help people to define the blurred ones.In the future i can add a feature that deblur the images after detection.
-Link of the web application 
+
 
 
 ## Methods used :
